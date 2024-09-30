@@ -1,0 +1,77 @@
+.navbar {
+    background-color: #575757;
+    height: 40px;
+
+}
+
+.navdiv {
+    display: flex;
+    align-items: Center;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+li a {
+    margin-right: 25px;
+    color: aliceblue;
+    font-weight: 150;
+
+}
+
+* {
+    text-decoration: none;
+}
+
+#home {
+    background-image: url('https://media.istockphoto.com/id/2165145460/photo/topi-antelope-and-calves-in-the-serengeti.jpg?s=1024x1024&w=is&k=20&c=sRBD_yesZA3dgA_ey9uUM8qbUhyMR9acp_P7AeN6-CA=');
+    color: aliceblue;
+    font-size: 20px;
+    height: 500px;
+    width: 100;
+}
+
+#submit {
+    color: #575757;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#about {
+    background-image: url('https://images.unsplash.com/photo-1549182209-fccf0dd0893b?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2FmYXJpfGVufDB8fDB8fHww');
+    color: white;
+}
+
+.gallery {
+    display: inline-block;
+}
+
+#timings {
+    background-color: rgb(135, 164, 164);
+}
+
+table,
+tr,
+th,
+td {
+    border-width: 1px;
+    border-style: dashed;
+    border-collapse: collapse;
+}
+
+#FAQ {
+    background-color: bisque;
+}
+
+.home {
+    padding-top: 14%;
+}
+
+.gallery {
+    box-shadow: 5px 10px;
+}
